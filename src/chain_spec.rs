@@ -6,7 +6,7 @@ use xc_runtime::{
 use substrate_service;
 
 use ed25519::Public as AuthorityId;
-use contract_chain_runtime::ContractConfig;
+use xc_runtime::ContractConfig;
 
 // Note this is the URL for the telemetry server
 //const STAGING_TELEMETRY_URL: &str = "wss://telemetry.polkadot.io/submit/";
