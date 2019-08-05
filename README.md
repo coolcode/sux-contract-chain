@@ -1,4 +1,4 @@
-# xc
+# SUX Contract Chain
 
 A new SRML-based Substrate node, ready for hacking.
 
@@ -33,6 +33,8 @@ cargo build
 You can start a development chain with:
 
 ```bash
+target/release/xc --dev
+or
 cargo run -- --dev
 ```
 
